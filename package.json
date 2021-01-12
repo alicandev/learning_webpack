@@ -1,0 +1,19 @@
+{
+  "name": "learn_webpack",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/alicandev/learn_webpack.git",
+  "author": "Alican Demirtas",
+  "license": "MIT",
+  "private": true,
+  "scripts": {
+    "build": "./node_modules/.bin/webpack"
+  },
+  "devDependencies": {
+    "webpack": "4.28.4",
+    "webpack-cli": "3.2.1"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  }
+}
