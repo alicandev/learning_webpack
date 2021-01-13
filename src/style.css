@@ -1,0 +1,10 @@
+h1 {
+  font-family: Arial, serif;
+  color: salmon;
+}
+
+#image {
+  background: url("vortex.webp");
+  height: 500px;
+  width: 500px;
+}
