@@ -6,6 +6,10 @@ module.exports = {
     filename: './main.js',
     path: path.resolve(__dirname, 'dist'),
   },
+  devServer: {
+    contentBase: path.join(__dirname, 'dist'),
+    port: 9000,
+  },
   module: {
     rules: [
       {
@@ -27,7 +31,7 @@ module.exports = {
       },
       {
         test: /\.(png|jpg|webp)$/,
-        use : { loader: 'url-loader' }
+        use : { loader: 'url-loader' },
       }
     ],
   },
